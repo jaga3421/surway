@@ -1,0 +1,34 @@
+{
+	"_elements":[
+		{
+			"id":0,
+			"type":"text",
+			"name":"Plain text",
+			"control": "<textarea class='block text'></textarea>"
+		},
+		{
+			"id":1,
+			"type":"textarea",
+			"name":"Text Area",
+			"control": "<textarea class='block' textarea></textarea>"
+		},
+		{
+			"id":2,
+			"type":"textBox",
+			"name":"Text Box",
+			"control": "<input type='text' class='block textbox'>"
+		},
+		{
+			"id":3,
+			"type":"dropDown",
+			"name":"Drop Down",
+			"control": "<select class='block dropdown'></select>"
+		},
+		{
+			"id":4,
+			"type":"listBox",
+			"name":"List Box",
+			"control": "<select class='block listbox'></select>"
+		}
+	]
+}

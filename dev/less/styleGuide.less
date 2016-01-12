@@ -1,0 +1,68 @@
+/* fonts */
+ 
+
+/* colors */
+@primary1: #BB0303;
+@secondary: #ebebeb;
+@grey: #222;
+@white: #fff;
+
+/* view port defns */
+@container: 1200px;
+
+/* elements */
+html {
+  box-sizing: border-box;
+}
+body {
+	background: @secondary;
+	font-size: 14px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h1,h2,h3,ul {
+	margin: 0; 
+}
+h1 {  
+    font-size: 24px;    
+    color: @primary1;
+    text-transform: uppercase;
+    padding: 10px 0 15px;
+}
+h2 {
+	font-size: 16px;
+	padding: 10px 0;
+}
+a {
+	color: inherit;
+}
+
+
+/* mixins */
+.border-radius (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+.transition (@transition) {
+	-webkit-transition: @transition;  
+	-moz-transition:    @transition;
+	-ms-transition:     @transition; 
+	-o-transition:      @transition;  
+	transition:			@transition;  
+}
+.transform (@transform) {
+	-webkit-transform: @transform;  
+	-moz-transform:    @transform;
+	-ms-transform:     @transform; 
+	-o-transform:      @transform;  
+	transform:			@transform;  
+}
+
+
+

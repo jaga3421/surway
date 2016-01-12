@@ -1,0 +1,52 @@
+.surwayBuilder {
+	.panel,.canvas {
+		float: left;
+		padding: 10px;
+		.wrapper {
+			background: @white;
+			min-height: 100px;
+			padding: 10px;
+		}
+	}
+	.panel {
+		width: 30%;
+	}
+	.canvas {
+		width: 70%;
+		.blocks {
+			padding: 10px 0;
+			border-bottom: 1px solid @secondary;
+			&:Hover {
+				background: @secondary;
+			}
+		}
+		.formGrp {
+			span.label, span.control {
+				float: left;
+				width: 48%;
+
+			}
+			span.label  {
+				margin-right: 2%;
+				input {
+					border: 1px dotted @secondary;
+					background: transparent;				}				
+			}
+		}
+	}
+	.elements {
+		margin-bottom: 5px;
+		padding: 5px 10px;
+		cursor: pointer;
+		width: 50%;
+		float: left;
+		.elem {
+			padding: 10px;
+			border: 1px solid @secondary;
+			&:Hover {
+				background: @primary1;
+				color: @white;
+			}			
+		}
+	}
+}

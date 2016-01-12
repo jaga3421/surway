@@ -1,0 +1,39 @@
+.img-responsive {
+	width: 100%;
+}
+
+.cf:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+.centre {
+	text-align: center;
+}
+
+.container {
+	width: @container;
+	margin: 0 auto;
+}
+
+.formGrp{
+	&:after {
+		content:"";
+		display:table;
+		clear:both;		
+	}
+	input, select, textarea,button {
+		margin-bottom: 10px;
+		padding: 10px;
+		width: 100%;
+		display: block;
+		border: 1px solid @primary1;
+		color: @primary1;
+	}
+	button {
+		width: auto;
+		background: @primary1;
+		color: @white;
+	}
+
+}

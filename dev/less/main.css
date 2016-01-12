@@ -1,0 +1,137 @@
+/* fonts */
+/* colors */
+/* view port defns */
+/* elements */
+html {
+  box-sizing: border-box;
+}
+body {
+  background: #ebebeb;
+  font-size: 14px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+ul {
+  margin: 0;
+}
+h1 {
+  font-size: 24px;
+  color: #BB0303;
+  text-transform: uppercase;
+  padding: 10px 0 15px;
+}
+h2 {
+  font-size: 16px;
+  padding: 10px 0;
+}
+a {
+  color: inherit;
+}
+/* mixins */
+.img-responsive {
+  width: 100%;
+}
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.centre {
+  text-align: center;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.formGrp:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.formGrp input,
+.formGrp select,
+.formGrp textarea,
+.formGrp button {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  display: block;
+  border: 1px solid #BB0303;
+  color: #BB0303;
+}
+.formGrp button {
+  width: auto;
+  background: #BB0303;
+  color: #fff;
+}
+.settings {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.settings textarea {
+  height: 100px;
+}
+.settings a.surwayBegin {
+  display: inline-block;
+  background-color: #BB0303;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.surwayBuilder .panel,
+.surwayBuilder .canvas {
+  float: left;
+  padding: 10px;
+}
+.surwayBuilder .panel .wrapper,
+.surwayBuilder .canvas .wrapper {
+  background: #fff;
+  min-height: 100px;
+  padding: 10px;
+}
+.surwayBuilder .panel {
+  width: 30%;
+}
+.surwayBuilder .canvas {
+  width: 70%;
+}
+.surwayBuilder .canvas .blocks {
+  padding: 10px 0;
+  border-bottom: 1px solid #ebebeb;
+}
+.surwayBuilder .canvas .blocks:Hover {
+  background: #ebebeb;
+}
+.surwayBuilder .canvas .formGrp span.label,
+.surwayBuilder .canvas .formGrp span.control {
+  float: left;
+  width: 48%;
+}
+.surwayBuilder .canvas .formGrp span.label {
+  margin-right: 2%;
+}
+.surwayBuilder .canvas .formGrp span.label input {
+  border: 1px dotted #ebebeb;
+  background: transparent;
+}
+.surwayBuilder .elements {
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 50%;
+  float: left;
+}
+.surwayBuilder .elements .elem {
+  padding: 10px;
+  border: 1px solid #ebebeb;
+}
+.surwayBuilder .elements .elem:Hover {
+  background: #BB0303;
+  color: #fff;
+}

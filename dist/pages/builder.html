@@ -1,0 +1,29 @@
+<div class="surwayBuilder"  ng-controller="ctrlBuilder">
+	<div class="row cf">
+		<div class="panel">
+			<h2>Panel</h2>
+			<div class="wrapper cf">
+				<div class="elements" ng-repeat="elementList in builder.elementLists">
+					<div class="elem" ng-click="builder.createBlock(elementList.id)">
+						<span class="name">{{elementList.name}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="canvas">
+			<h2>Surway Builder</h2>
+			<div class="wrapper">				
+				<div class="blocks" ng-repeat="block in builder.blocks">
+					<div class="formGrp">
+						<span class="label">
+							<input type="text" class="label" ng-model="block.description" placeholder="block.placeholder">
+						</span>
+						<span class="control" ng-bind-html="block.control">
+							
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
