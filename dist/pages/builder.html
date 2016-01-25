@@ -15,12 +15,23 @@
 			<div class="wrapper">				
 				<div class="blocks" ng-repeat="block in builder.blocks">
 					<div class="formGrp">
-						<span class="label">
-							<input type="text" class="label" ng-model="block.description" placeholder="block.placeholder">
-						</span>
-						<span class="control" ng-bind-html="block.control">
-							
-						</span>
+						<div class="formHolder">
+							<span class="label">
+								<input type="text" class="label" ng-model="block.description" placeholder="block.placeholder">
+							</span>
+							<span class="control" ng-bind-html="block.control">
+								
+							</span>
+						</div>
+						<div class="optionHolder">
+							<p>&nbsp;</p>
+							<span class="required">Required</span>
+							<span class="validation type">Email</span>
+							<span class="required">Required</span>
+							<span class="required">Required</span>
+							<span class="required">Required</span>
+
+						</div>
 					</div>
 				</div>
 			</div>
