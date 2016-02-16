@@ -1,7 +1,7 @@
 {
-  "name": "Sample",
+  "name": "Surway",
   "version": "1.0.0",
-  "description": "Surway Tool",
+  "description": "Survey Tool in Angular Js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
